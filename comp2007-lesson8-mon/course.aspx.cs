@@ -58,8 +58,6 @@ namespace comp2007_lesson8_mon
                 ListItem newItem = new ListItem("-Select-", "0");
                 ddlStudent.Items.Insert(0, newItem);
 
-                ddlStudent.DataTextField = objE.ToString();
-
             }
         }
 
